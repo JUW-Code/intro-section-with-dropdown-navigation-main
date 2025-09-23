@@ -18,10 +18,10 @@
  <header>
   <div class="header-nav">
   <img src="./images/logo.svg" alt="logo">
-  <nav id="nav-menu">
+  <nav id="nav-Menu">
     <ul class="header-items">
       <li class="header-item dropdown">
-        <a href="#features" class="dropdown-toggle"> 
+        <a href="#features" class="dropdown-toggle" aria-expanded="false">
           Features <img src="./images/icon-arrow-down.svg" alt="">
         </a>
       <ul class="dropdown-menu">
@@ -47,12 +47,15 @@
       <li class="btn"><a href="#register">Register</a></li>
     </ul>
   </nav>
-    <button class="hamburger" id="hamburger">
- <img src="./images/icon-menu.svg" alt="">
+    <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="nav-Menu">
+ <img src="./images/icon-menu.svg" alt="menu" id="hamburger-icon" >
   </button>
   </div>
  </header>
-  
+ <!-- <picture>
+    <source media="(max-width: 768px)" srcset="./images/image-hero-mobile.png">
+    <img src="./images/image-hero-mobile.png" alt="">
+  </picture> -->
  <section class="body-container">
   <div class="main-body">
   <h1>Make remote<br> work</h1>

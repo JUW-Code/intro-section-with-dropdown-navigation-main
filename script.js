@@ -27,5 +27,8 @@ const navMenu = document.getElementById("nav-menu");
 
 hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("active");
+  document.body.classList.toggle("menu-open"); // overlay
+  const expanded = hamburger.getAttribute("aria-expanded") === "true";
+  hamburger.setAttribute("aria-expanded", !expanded);
 });
     
