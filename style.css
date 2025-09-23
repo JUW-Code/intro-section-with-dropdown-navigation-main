@@ -15,7 +15,7 @@ header{
     margin-right: 10rem;
 }
 .header-nav{
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 10rem;
