@@ -18,7 +18,7 @@
  <header>
   <div class="header-nav">
   <img src="./images/logo.svg" alt="logo">
-  <nav id="nav-Menu">
+  <nav id="nav-menu">
     <ul class="header-items">
       <li class="header-item dropdown">
         <a href="#features" class="dropdown-toggle" aria-expanded="false">
@@ -44,18 +44,15 @@
       <li class="header-item"><a href="#careers">Careers</a></li>
       <li class="header-item"><a href="#about">About</a></li>
       <li class="login"><a href="#login">Login</a></li>
-      <li class="btn"><a href="#register">Register</a></li>
+      <li><a href="#register" class="btn">Register</a></li>
     </ul>
   </nav>
-    <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="nav-Menu">
+    <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="Toggle navigation">
  <img src="./images/icon-menu.svg" alt="menu" id="hamburger-icon" >
   </button>
   </div>
  </header>
- <!-- <picture>
-    <source media="(max-width: 768px)" srcset="./images/image-hero-mobile.png">
-    <img src="./images/image-hero-mobile.png" alt="">
-  </picture> -->
+
  <section class="body-container">
   <div class="main-body">
   <h1>Make remote<br> work</h1>
@@ -69,7 +66,11 @@
     <img src="./images/client-maker.svg" alt="">
   </footer>
   </div>
- <img src="./images/image-hero-desktop.png" alt="">
+    <picture>
+    <source media="(max-width: 768px)" srcset="./images/image-hero-mobile.png">
+    <img src="./images/image-hero-desktop.png" alt="">
+  </picture>
+<!--<img src="./images/image-hero-desktop.png" alt="">-->
  </section>
  
 <div class="attribution">

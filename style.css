@@ -6,7 +6,8 @@
 body {
   background: var(--Gray50);
   padding: 0;
-  width: fit-content;
+  max-width: 1500px;
+  margin: 0 auto;
   box-sizing: content-box;
   justify-content: center;
   align-items: center;
@@ -54,7 +55,7 @@ header{
   padding: 2rem 0rem;
 }
 .main-body h1{
-  font-display: var(--Gray950);
+  color: var(--Gray950);
   font-size: 4rem;  
 }
 .main-body p{
@@ -130,10 +131,11 @@ header{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
  min-width: 150px;
  list-style: none;
+ transition: all 0.2s ease-in-out;
 }
 .dropdown-menu li{
   margin: 8px 0;
-  margin-top: 5xp;
+  margin-top: 5px;
 }
 .dropdown-menu li a{
   text-decoration: none;
@@ -146,6 +148,7 @@ header{
 .dropdown.active .dropdown-menu{
   display: block;
 }
+
 @media (max-width: 900px) {
   /* --- Header --- */
   .header-nav {
@@ -236,11 +239,12 @@ header{
   .footer {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .footer img {
-    width: 40px;
+    width: 35px;
   }
 
   .body-container img {
