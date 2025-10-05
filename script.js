@@ -3,12 +3,10 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
 const body = document.body;
 
-// Toggle mobile menu
 hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   body.classList.toggle('menu-open');
 
-  // Update aria-expanded for accessibility
   const expanded = hamburger.getAttribute('aria-expanded') === 'true';
   hamburger.setAttribute('aria-expanded', !expanded);
 });
