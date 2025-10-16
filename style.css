@@ -150,7 +150,9 @@ header{
 }
 
 @media (max-width: 900px) {
-  /* --- Header --- */
+  body {
+    padding: 0 1rem;
+  }
   .header-nav {
     padding: 1rem;
     display: flex;
