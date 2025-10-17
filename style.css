@@ -102,7 +102,7 @@ header{
 }
 
 .btn:hover {
-  background: var(--Gray950);
+  background: var(--Gray50);
   color: #fff;
   border-color: var(--Gray950);
 }
